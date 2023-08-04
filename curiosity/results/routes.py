@@ -11,7 +11,7 @@ def result_page():
 
     meta_dict_corp()
     train_model()
-    episode_num, timestamp = query_result(query)
+    episode_num, timestamp = 270, 500
 
     playlist = Playlist('https://www.youtube.com/playlist?list=PLrAXtmErZgOdP_8GztsuKi9nrraNbKKp4')
 
